@@ -2,7 +2,7 @@
 import requests
 
 # Replace this with your bot token
-bot_token = '7716903147:AAHH67-STADFwfLwSdjs0Fbcaj1QWWhgUmE'
+bot_token = 'put token here'
 
 # Get updates (messages sent to your bot)
 url = f'https://api.telegram.org/bot{bot_token}/getUpdates'
