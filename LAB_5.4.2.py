@@ -4,7 +4,7 @@ import requests
 
 # Telegram Bot token and chat ID
 TOKEN = "7716903147:AAHH67-STADFwfLwSdjs0Fbcaj1QWWhgUmE"
-chat_id = "665618214"
+chat_id = "1485493857"
 
 # 1. Send a text message
 message = "Sending a Telegram message from Python code..."
@@ -17,7 +17,7 @@ print(requests.get(url, params=payload).json())
 
 # 2. Send an image
 # Make sure the image path is correct
-img = Image.open("slowpoke.png")
+img = Image.open("mudkip.png")
 
 # Prepare image for upload
 image_stream = BytesIO()
