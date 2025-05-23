@@ -3,8 +3,8 @@ from io import BytesIO
 import requests
 
 # Telegram Bot token and chat ID
-TOKEN = "7716903147:AAHH67-STADFwfLwSdjs0Fbcaj1QWWhgUmE"
-chat_id = "1485493857"
+TOKEN = "put token here"
+chat_id = "put chat id here"
 
 # 1. Send a text message
 message = "Sending a Telegram message from Python code..."
